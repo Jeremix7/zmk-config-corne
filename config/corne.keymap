@@ -89,9 +89,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp PIPE   &kp EXCL   &kp AT     &kp HASH              &kp DLLR               &kp PRCNT    &trans   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0  &kp C_MUTE
-&kp LCTRL  &kp AMPS   &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR     &trans   &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6  &kp C_NEXT    &kp C_VOL_UP
-&kp TILDE  &kp GRAVE  &kp UNDER  &kp MINUS             &kp PLUS               &kp SLASH    &trans   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3  &kp K_STOP    &kp C_VOL_DN
+&kp PIPE   &kp EXCL   &kp AT     &kp HASH              &kp DLLR               &kp PRCNT    &trans   &kp NUMBER_7   &kp NUMBER_8   &kp NUMBER_9  &kp NUMBER_0     &kp C_MUTE
+&kp LCTRL  &kp AMPS   &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR     &trans   &kp NUMBER_4   &kp NUMBER_5   &kp NUMBER_6  &kp C_NEXT       &kp C_VOL_UP
+&kp TILDE  &kp GRAVE  &kp UNDER  &kp MINUS             &kp PLUS               &kp SLASH    &trans   &kp NUMBER_1   &kp NUMBER_2   &kp NUMBER_3  &kp LS(C_PAUSE)  &kp C_VOL_DN
                                  &kp DELETE            &kp DELETE             &kp SPACE    &kp RET  &kp BACKSPACE  &kp BACKSPACE
             >;
         };
